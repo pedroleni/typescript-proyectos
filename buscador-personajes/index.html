@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador de personajes (TypeScript)</title>
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <h1>Buscador de personajes</h1>
+        <p class="app-subtitulo">Rick and Morty API — con TypeScript de verdad</p>
+      </header>
+
+      <input id="busqueda" type="search" placeholder="Buscar por nombre… (prueba «rick»)" autocomplete="off" />
+
+      <p id="mensaje" class="mensaje" role="status"></p>
+      <ul id="rejilla" class="rejilla"></ul>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
