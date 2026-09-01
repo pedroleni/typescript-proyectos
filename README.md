@@ -1,4 +1,4 @@
-# typescript-proyectos-avanzados
+# typescript-proyectos
 
 Proyectos avanzados de Tech Study Tracker para esta tecnología. Cada
 carpeta es un proyecto independiente, con su propio `package.json` —
