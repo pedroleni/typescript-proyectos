@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+main {
+  width: min(24rem, 100%);
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.estado-actual {
+  padding: 0.85rem 1rem;
+  border: 1px solid light-dark(#ddd, #333);
+  border-radius: 0.75rem;
+  background: light-dark(#f4f4f5, #1f1f22);
+}
+
+.acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-block: 1rem;
+}
+
+.acciones button {
+  font: inherit;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  border: 1px solid light-dark(#ccc, #444);
+  cursor: pointer;
+}
+
+.sin-acciones {
+  color: light-dark(#666, #999);
+  font-style: italic;
+}
+
+.reiniciar {
+  font: inherit;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  background: none;
+  color: light-dark(#666, #999);
+  cursor: pointer;
+  text-decoration: underline;
+}
