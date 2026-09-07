@@ -45,8 +45,8 @@ src/
 ## Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/pedroleni/maquina-estados-ts.git
-cd maquina-estados-ts
+git clone https://github.com/pedroleni/typescript-proyectos.git
+cd typescript-proyectos/maquina-estados
 npm install
 npm run dev
 ```

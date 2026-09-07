@@ -51,8 +51,8 @@ de compilación, no un bug que descubras en producción.
 ## Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/pedroleni/bus-eventos-ts.git
-cd bus-eventos-ts
+git clone https://github.com/pedroleni/typescript-proyectos.git
+cd typescript-proyectos/bus-eventos
 npm install
 npm run dev
 ```
