@@ -49,8 +49,8 @@ src/
 ## Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/pedroleni/cliente-tipado-zod.git
-cd cliente-tipado-zod
+git clone --branch solucion https://github.com/pedroleni/typescript-proyectos.git
+cd typescript-proyectos/cliente-zod
 npm install
 npm run dev
 ```
